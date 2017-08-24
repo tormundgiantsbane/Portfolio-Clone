@@ -68,13 +68,22 @@ Header Stuff
 ==========================
 */
 
+.nav{
+	padding: 22px 0 11px 7.5%;
+}
+
 .nav li{
 	display: inline-block;
 	vertical-align: top;
+	padding-right: 15px;
 }
 
-.nav li:last-child{
-	margin-right: 0;
+.nav li a:first-child{
+	margin-left: 0;
+}
+
+header{
+	background: #0187ce;
 }
 
 /*
@@ -92,6 +101,24 @@ h4{
 	font-size: 20px;
 }
 
+body{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 15px;
+	padding-bottom: 8px;
+	font-weight: 200;
+}
+
+a:hover{
+	border-bottom: 2px solid;
+	
+}
+
 /*
 ==========================
 Hello Section
@@ -99,14 +126,44 @@ Hello Section
 */
 
 .mugshot{
+	width: 150px;
+	height: auto;
 	border-radius: 50%;
-	background-color: red;
-	width: 100px;
-	height: 100px;
-	float: right;
-	margin-top: -60px;
+	margin-left: 73.5%;
+	margin-top: -80px;
+}
+
+.hello h4{
+	float: left;
+	margin-top: 20px;
+	font-weight: 100;
 }
 
 .description p{
 	margin-top: 50px;
+}
+
+.hello{
+	background: #0aa1da;
+	padding: 50px 0 20px 7.5%;
+	color: white;
+	font-weight: 200;
+	box-shadow: 0 7px 16px -2px black;
+}
+
+/*
+=========================
+Description
+=========================
+*/
+
+.description p{
+	margin: 0 7.5%;
+	padding: 50px 0;
+	color: white;
+	font-weight: 200;
+}
+
+.description{
+	background: #8c979b;
 }
