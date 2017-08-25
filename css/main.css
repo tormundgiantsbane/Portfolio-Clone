@@ -47,3 +47,38 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+body{
+	font-family: 'Open-Sans', sans-serif;
+	
+}
+
+/*
+================
+Header
+================
+*/
+
+.nav li{
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 15px;
+}
+
+.nav{
+	padding: 16px 7%;
+	background-color: #0286d0;
+	font-size: 95%;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: white;
+	padding-bottom: 12px;
+}
+
+.nav li a:hover{
+	border-bottom: 3px solid white;
+}
+
