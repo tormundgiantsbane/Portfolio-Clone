@@ -51,6 +51,7 @@ table {
 
 body{
 	font-family: 'Open-Sans', sans-serif;
+	font-weight: 100;
 	
 }
 
@@ -100,12 +101,15 @@ Hello Section
 
 .name h1{
 	font-size: 240%;
+	padding: 10px 0;
 }
 
 .description{
 	clear: both;
-	padding: 30px 7%;
-
+	padding: 40px 7% 30px 7%;
+	background: #6b6f75;
+	color: white;
+	box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.7);
 }
 
 .circle{
