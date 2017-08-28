@@ -68,7 +68,7 @@ Header
 
 .nav{
 	padding: 16px 7%;
-	background-color: #0286d0;
+	background-color: #228dcc;
 	font-size: 95%;
 }
 
@@ -80,5 +80,40 @@ Header
 
 .nav li a:hover{
 	border-bottom: 3px solid white;
+}
+
+/*
+===================
+Hello Section
+===================
+*/
+
+.hello{
+	
+}
+
+.name{
+	padding: 60px 7% 30px 7%;
+	background: #0aa1da;
+	color: white;
+}
+
+.name h1{
+	font-size: 240%;
+}
+
+.description{
+	clear: both;
+	padding: 30px 7%;
+
+}
+
+.circle{
+	height: 85px;
+	width: 85px;
+	background: blue;
+	border-radius: 50%;
+	float: right;
+	margin-top: -70px;
 }
 
