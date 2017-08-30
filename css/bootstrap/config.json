@@ -1,0 +1,15 @@
+{
+  "vars": {},
+  "css": [
+    "glyphicons.less",
+    "progress-bars.less",
+    "component-animations.less",
+    "dropdowns.less",
+    "tooltip.less",
+    "popovers.less",
+    "modals.less",
+    "carousel.less"
+  ],
+  "js": [],
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=4d595d83226ecb9c50e699db5a720a76"
+}

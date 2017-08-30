@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="/css/main.css">
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+		
 		<title>Portfolio</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600" rel="stylesheet">
-		<script type="text/javascript" src="JS/main.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<header> 
@@ -24,11 +30,11 @@
 				<div class="circle"></div>
 			</div>
 			
-			<p class="description">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi ne octa. Sonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+			<p class="description">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi ne octa. Sonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></section>
 			
 			<section class="col-1-3">
-					<h3>Personal</h3>
 				
+				<h3>Personal</h3>
 				<table class="personal-table">
 					<tr>
 						<th>Name</th>
@@ -55,32 +61,88 @@
 						<td>+1(212) 123-4567</td>
 					</tr>
 				</table>
+				
+				
+				<h3>Software</h3>
+				<table class="software-table">
+					<tr>
+						<th>Indesign CC</th>
+						<td><div class='progress'>
+							<div class="progress-bar" role="progressbar" style="width: 100%;">
+							</div>
+						</div></td>
+					</tr>
+					
+					<tr>
+						<th>Illustrator CC</th>
+						<td><div class='progress'>
+							<div class="progress-bar" role="progressbar" style="width: 85%;">
+							</div>
+						</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<th>Photoshop CC</th>
+						<td><div class='progress'>
+							<div class="progress-bar" role="progressbar" style="width: 70%;">
+							</div>
+						</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<th>Sketch 3</th>
+						<td><div class='progress'>
+							<div class="progress-bar" role="progressbar" style="width: 60%;">
+							</div>
+						</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<th>HTML 5</th>
+						<td><div class='progress'>
+							<div class="progress-bar" role="progressbar" style="width: 50%;">
+							</div>
+						</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<th>CSS 3</th>
+						<td><div class='progress'>
+							<div class="progress-bar" role="progressbar" style="width: 40%;">
+							</div>
+						</div>
+						</td>
+					</tr>
+				</table>
+		
+				
 			</section>
 			
 			<section class="col-2-3">
 				<section class="work">
 					<h3>Work</h3>
 					
-					<svg id="circle1" class="small-circle">
+					<svg id="svg1" width="0" height="0">
 						<path
 						id="circlePath1"
 						d="M0 0"             
-						stroke-width="0.3em"
-						style="stroke:#555; fill:none;  "/>
+						stroke-width="2px;"
+						style="stroke:black; fill:none;  "/>
 					</svg>
 					
-					<svg id="circle2"  class="small-circle">
-						<path
-						id="circlePath2"
-						d="M0 0"             
-						stroke-width="0.3em"
-						style="stroke:#555; fill:none;  "/>
-					</svg>
+					<div class="small-circle" id="circle1"></div>
+					<div class="small-circle" id="circle2"></div>
 				</section>
-				
 					
 			</section>
 	
+			
+
+				<script type="text/javascript" src="JS/main.js"></script>
 	</body>
 
 </html>

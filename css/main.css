@@ -102,6 +102,7 @@ Hello Section
 .name h1{
 	font-size: 240%;
 	padding: 10px 0;
+	font-weight: 100;
 }
 
 .description{
@@ -163,6 +164,24 @@ tr{
 	padding: 35px 0 15px 0;
 }
 
+.progress {
+    margin-bottom: 0 !important;
+	height: 10px;
+}
+
+.progress-bar{
+	background: #228dcc;
+	
+}
+.software-table td{
+	width: 170px;
+	padding-left: 30px;
+}
+
+.software-table{
+	margin-left: 20.5%;
+	font-size: 110%;
+}
 
 /*
 ===================================
@@ -184,4 +203,5 @@ tr{
 				0px 0px 0px 5px #7fc8e2;
 	margin: 50px 50px;
 }
+
 
