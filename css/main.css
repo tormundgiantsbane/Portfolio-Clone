@@ -157,7 +157,7 @@ tr{
 	border-bottom: .5pt solid grey;
 }
 
-.col-1-3 h3{
+h3{
 	margin-left: 20.5%;
 	font-size: 20px;
 	color: #0aa1da;
@@ -181,6 +181,39 @@ tr{
 .software-table{
 	margin-left: 20.5%;
 	font-size: 110%;
+}
+
+
+/*
+==================================
+Hobby Section
+==================================
+*/
+
+.grid div{
+
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hobby{
+	width: 100px;
+	height: 100px;
+	background: #86abe8;
+	border-radius: 50%;
+	font-weight: 500;
+	font-size: 80%;
+	margin: 15px 10px;
+}
+
+.hobby i{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.hobby p{
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 /*
