@@ -326,6 +326,30 @@ Social Media Links at the bottom
 	vertical-align: top;
 	display: block;
 	margin-left: 300px;
-	
+	clear: both;
 }
+
+/*
+=======================================
+Footer 
+======================================
+*/
+
+footer{
+	background: #228dcc;
+	color: white;
+	font-size: 90%;
+	height: 50px;
+	width: 100%;
+	display: inline-block;
+}
+
+.address{
+	padding-right: 30px;
+}
+
+.website{
+	padding-left: 60px;
+}
+
 
