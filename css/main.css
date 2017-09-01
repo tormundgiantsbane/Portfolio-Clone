@@ -134,6 +134,7 @@ Hello Section
 	width: 33.33%;
 	font-size: 15px;
 	float: left;
+	padding-bottom: 40px;
 }
 
 .personal-table{
@@ -191,7 +192,6 @@ Hobby Section
 */
 
 .grid div{
-
 	display: inline-block;
 	vertical-align: top;
 }
@@ -250,36 +250,82 @@ Hobby Section
 
 /*
 ======================================
-Work Section
+Work and Education Section
 ======================================
 */
 
 
-.work h4{
+.work h4, .education h4{
 	font-weight: bold;
 	font-size: 105%;
 	float: left;
 	margin-left: 2.5%;	
 }
 
-.work h5{
+.work h5, .education h5{
 	font-weight: bold;
 	float: right;
 	margin-right: 350px;
 	font-size: 85%;
 }
 
-.work p{
+.work p, .education p{
 	clear: both;
 	margin-left: 5.75%;
 	padding-bottom: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	width: 48%;
 	border-bottom: 1px solid #bfc0c1;
 }
 
-.work{
+.work, .education{
 	margin-left:5%;
 }
 
+
+/*
+=====================================
+Professional Skills
+=====================================
+*/
+
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+
+/*
+=======================================
+Social Media Links at the bottom
+=======================================
+*/
+
+.social{
+	background: #0aa1da;
+	padding-top: 10px;
+	width: 100%;
+	height: 150px;;
+	clear: both;
+	
+}
+
+.social i{
+	color:white;
+	margin: auto;
+}
+
+.social-circle{
+	margin: 0 5%;
+	background: #228dcc;
+}
+
+.social .grid{
+	vertical-align: top;
+	display: block;
+	margin-left: 300px;
+	
+}
 
